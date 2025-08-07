@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: navy;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+#party-list-section,
+#single-party-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+#party-list {
+  list-style: none;
+  padding: 0;
+}
+
+#party-list li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: skyblue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.125s ease-in-out;
+}
+
+#party-list li:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#party-details {
+  background-color: lavender;
+  padding: 15px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
